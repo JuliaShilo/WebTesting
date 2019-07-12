@@ -18,6 +18,7 @@
     <junit.version>5.4.2</junit.version>
     <jsoup.version>1.12.1</jsoup.version>
     <lombok.version>1.18.8</lombok.version>
+    <selenium.version>3.141.59</selenium.version>
   </properties>
 
   <dependencies>
@@ -39,6 +40,26 @@
       <scope>provided</scope>
     </dependency>
 
+    <!--SELENIUN-->
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-server</artifactId>
+      <version>${selenium.version}</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>${selenium.version}</version>
+    </dependency>
 
 
     <!--TEST -->

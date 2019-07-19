@@ -6,10 +6,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
-private static final String SEP = System.getProperty ("file.separator");
-private static final String RES_DIR = "src" + SEP + "main" + SEP + "resources" + SEP;
 
 public class WebDriverUtil {
+
+    private static final String SEP = System.getProperty ("file.separator");
+    private static final String RES_DIR = "src" + SEP + "main" + SEP + "resources" + SEP;
 
     public static WebDriver getChromeDriver () {
 
